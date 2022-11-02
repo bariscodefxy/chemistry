@@ -14,3 +14,13 @@ function span($s="")
 {
   return "<span>$s</span>";
 }
+
+function endl()
+{
+  echo br();
+}
+
+function br()
+{
+  return "<br>";
+}
